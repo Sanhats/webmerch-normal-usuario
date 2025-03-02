@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #3B82F6;
+  --primary-foreground: #FFFFFF;
+}
+
+.dark {
+  --primary: #60A5FA;
+  --primary-foreground: #FFFFFF;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
